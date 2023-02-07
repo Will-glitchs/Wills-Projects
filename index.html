@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Projects</title>
+  <style>
+    body {
+      background-color: lightblue;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    button {
+      font-size: 18px;
+      padding: 10px 20px;
+      background-color: lightgray;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: gray;
+    }
+  </style>
+  <script>
+    function goToCheckmatedChess() {
+      window.location.href = "https://checkmated-chess.netlify.app/";
+    }
+
+    function goToTheLoneStreamer() {
+      window.location.href = "http://127.0.0.1:5500/The_lone_Streamer/The_lone_Streamer.html";
+    }
+    
+    function goToDiscordServer() {
+      window.location.href = "http://127.0.0.1:5500/Discord/Discordpromotion.html";
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>My Projects</h1>
+    <button onclick="goToCheckmatedChess()">Checkmated Chess</button>
+    <button onclick="goToTheLoneStreamer()">The_lone_Streamer</button>
+    <button onclick="goToDiscordServer()">Discord Server</button>
+  </div>
+</body>
+</html>
