@@ -5,7 +5,7 @@
   <title>My Projects</title>
   <style>
     body {
-      background-color: lightblue ;
+      background-color:rgb(0, 0, 0);
     }
     .container {
       display: flex;
@@ -16,6 +16,7 @@
     h1 {
       font-size: 36px;
       margin-bottom: 20px;
+      color: white;
     }
     button {
       font-size: 18px;
@@ -24,36 +25,39 @@
       border: none;
       border-radius: 5px;
       margin-top: 20px;
+      color: white;
     }
     button:hover {
       cursor: pointer;
       background-color: gray;
+    }
+    .image {
+      margin: 50px 0;
     }
   </style>
   <script>
     function goToCheckmatedChess() {
       window.location.href = "https://checkmated-chess.netlify.app/";
     }
-
-    function goToTheLoneStreamer() {
-      window.location.href = "https://thelonestreamer.netlify.app/";
-    }
-    
-    function goToDiscordServer() {
-      window.location.href = "https://discordpromotion.netlify.app/";
-    }
-  </script>
+javascript
+Copy code
+function goToTheLoneStreamer() {
+  window.location.href = "https://thelonestreamer.netlify.app/";
+}
+function goToDiscordServer() {
+window.location.href = "https://discordpromotion.netlify.app/";
+}
+</script>
 </head>
 <body>
   <div class="container">
-    <h1>My Projects</h1>
+    <img class="image" src="https://cdn.discordapp.com/attachments/1067910212272541727/1073628444128198766/Daring_Development_Projects.png" alt="Daring Development Projects Image">
     <button onclick="goToCheckmatedChess()">Checkmated Chess</button>
     <button onclick="goToTheLoneStreamer()">The_lone_Streamer</button>
     <button onclick="goToDiscordServer()">Discord Server</button>
-  </div>
-    </div>
-    <div style="font-size: 50px; margin-top: 20px; text-align: center;">
+    <div style="font-size: 50px; margin-top: 20px; text-align: center; color: white;">
       The fire that burns within me is fueled by my love for learning and growth in all aspects of life. My determination and drive are unwavering, and I am not afraid to take risks and step out of my comfort zone. True mastery is achieved through tireless effort and unrelenting determination. I use setbacks and obstacles as opportunities to grow, learn, and become even stronger. My passion for Star Wars, chess, and coding exemplifies my unwavering spirit and love for growth and self-improvement.
     </div>
   </div>
 </body>
+</html>
